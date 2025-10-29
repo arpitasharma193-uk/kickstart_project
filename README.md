@@ -10,10 +10,11 @@
 
 1. **List all Kickstarter projects launched in 2015**
  select * from ks_project
+
 Where year(launched) = 2015
 ;
 
-2. **Find all successful projects.**
+3. **Find all successful projects.**
 
 select *
 from ks_project
